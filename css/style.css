@@ -102,3 +102,7 @@ select {
     background: #be185d;
     color: #fff
 }
+
+[hidden] {
+    display: none !important
+}
