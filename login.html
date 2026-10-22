@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Entrar</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header><strong>💇 Salão Bella</strong>
+        <nav><a href="index.html">Início</a></nav>
+    </header>
+    <main style="max-width:400px">
+        <div class="tabs">
+            <button id="tabLogin" class="ativo">Login</button>
+            <button id="tabCad">Cadastro</button>
+        </div>
+        <div class="card">
+            <form id="formLogin">
+                <input type="email" id="lEmail" placeholder="E-mail" required>
+                <input type="password" id="lSenha" placeholder="Senha" required>
+                <button class="btn">Entrar</button>
+            </form>
+            <form id="formCad" hidden>
+                <input id="cNome" placeholder="Nome completo" required>
+                <input type="email" id="cEmail" placeholder="E-mail" required>
+                <input type="password" id="cSenha" placeholder="Senha (mín. 6 caracteres)" minlength="6" required>
+                <button class="btn">Cadastrar</button>
+            </form>
+            <p class="erro" id="msg"></p>
+        </div>
+    </main>
+    <script src="js/auth.js"></script>
+</body>
+
+</html>
