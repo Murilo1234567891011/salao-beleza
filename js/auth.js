@@ -32,4 +32,4 @@ $('formLogin').onsubmit = e => {
     if (!user) { $('msg').style.color = '#b91c1c'; $('msg').textContent = 'E-mail ou senha inválidos.'; return; }
     localStorage.setItem('sessao', JSON.stringify({ nome: user.nome, email: user.email }));
     location.href = 'sistema.html';
-};
+};function ( {
