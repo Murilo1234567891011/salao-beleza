@@ -36,4 +36,4 @@ $('formAg').onsubmit = e => {
 };
 window.cancelar = id => { salvar(ler().filter(a => a.id !== id)); render(); };
 $('sair').onclick = () => { localStorage.removeItem('sessao'); location.href = 'index.html'; };
-render();
+render();function ( {
